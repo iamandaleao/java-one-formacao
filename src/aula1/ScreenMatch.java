@@ -9,5 +9,10 @@ public class ScreenMatch {
         System.out.println("Ano de lançamento: " + anoDeLancamento);
         boolean incluindoNoPlano = true;
         double notaDoFilme = 8.1;
+        double media = (9.8 + 6.3 + 8) / 3;
+        System.out.println(media);
+        String sinopse;
+        sinopse = "Filme de aventura dos anos 80";
+        System.out.println(sinopse);
     }
 }
