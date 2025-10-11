@@ -1,6 +1,8 @@
-package aula1;
+package formatacaotexto;
 
-public class FormatacaoTexto {
+// Example: Usando .format
+
+public class ExOne {
     public static void main(String[] args) {
         String nome = "Amanda";
         int idade = 28;
