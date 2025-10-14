@@ -12,7 +12,15 @@ public class ScreenMatch {
         double media = (9.8 + 6.3 + 8) / 3;
         System.out.println(media);
         String sinopse;
-        sinopse = "Filme de aventura dos anos 80";
+        sinopse = """
+                Filme Top Gun
+                Filme de aventura dos anos 80
+                Muito bom!
+                Ano de lançamento
+                """ + anoDeLancamento;
         System.out.println(sinopse);
+
+        int classificacao = (int) (media /2);
+        System.out.println(classificacao);
     }
 }
