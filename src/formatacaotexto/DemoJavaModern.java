@@ -18,7 +18,7 @@ public class DemoJavaModern {
         public SMS(String numero, String mensagem) { this.numero = numero; this.mensagem = mensagem; }
     }
 
-    // Método para processar notificações
+    // Métd para processar notificações
     public static String processarNotificacao(Object notificacao) {
         return switch (notificacao) {
             case Email e -> "Enviando email para " + e.destino + " sobre: " + e.assunto;
